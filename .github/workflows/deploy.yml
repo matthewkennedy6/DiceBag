@@ -31,7 +31,6 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          projectPath: DiceBag
           unityVersion: 2020.3.14f1
           targetPlatform: WebGL
 
